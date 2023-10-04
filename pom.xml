@@ -17,6 +17,7 @@
     </properties>
 
     <build>
+        <defaultGoal>clean package</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -95,6 +96,8 @@
                     <includes>
                         <include>**/Test*.java</include>
                         <include>**/*Test.java</include>
+                        <include>**/Tests*.java</include>
+                        <include>**/*Tests.java</include>
                     </includes>
                 </configuration>
             </plugin>

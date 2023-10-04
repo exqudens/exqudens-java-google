@@ -5,6 +5,7 @@ out/
 target/
 build/
 log/
+tmp/
 
 # Files
 *.iml
